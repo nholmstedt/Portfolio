@@ -19,7 +19,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --repo https://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@github.com/nholmstedt/portfolio.git",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
