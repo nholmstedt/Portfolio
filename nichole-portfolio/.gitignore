@@ -34,6 +34,5 @@ yarn-error.log*
 /.vscode/
 *.swp
 *.swo
-/.idea/
-*.idea
-.idea\
+# Ignore JetBrains IDE project files
+.idea/
