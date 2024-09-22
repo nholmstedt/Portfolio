@@ -1,38 +1,166 @@
-.App {
+
+body {
+  margin: 0;
+  height: 125vh;
+  background-color: black;
+  font-family: sans-serif; /* Corrected from 'san-serif' */
+  padding-top: 50px; /* Use padding instead of margin to avoid layout shifts */
+}
+
+header {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  box-shadow: 0 0 25px 0 grey;
+  padding: 0 20px; /* Optional: add some padding */
+}
+
+header nav ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Use flexbox for horizontal layout */
+}
+
+header nav li {
+  margin-right: 20px; /* Space between links */
+}
+
+header nav li a {
+  color: #EF0295;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/hero.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text, .hero-text1, .hero-text2, .hero-text3, .hero-text4 {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#container {
+  min-height: 125vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#main {
+  overflow: auto;
+  padding-bottom: 50px;
+}
+
+#footer {
+  position: relative;
+  height: 50px;
+  margin-top: -50px;
+}
+
+main {
+  color: black;
+}
+
+/* Example styles for text elements */
+s1 {
+  font-size: 22.5px;
+  font-family: Luminari;
+  color: black;
+}
+
+s5 {
+  font-size: 50px;
+  font-family: Luminari;
+  color: black;
+}
+
+s2 {
+  font-size: 10px;
+  font-family: Luminari;
+  color: black;
+}
+
+p1 {
+  color: white;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: Luminari;
+  color: gray;
+}
+
+/* Border styles */
+p.solid, div.solid {
+  border-style: solid;
+  border-color: #581845;
+}
+
+/* Links styles */
+a:link, a:visited {
+  color: #03C682;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #03C682;
+  background-color: #777879;
+  text-decoration: underline;
+}
+
+/* Columns */
+.column {
+  float: left;
+  padding: 30px;
+}
+
+.left {
+  float: left;
+  width: 75%;
+}
+
+.right {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+form .submit {
+  background: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
 }
