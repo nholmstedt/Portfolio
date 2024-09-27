@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.91116806.css",
-    "main.js": "/portfolio/static/js/main.ca5f5616.js",
-    "static/js/453.6724f973.chunk.js": "/portfolio/static/js/453.6724f973.chunk.js",
-    "static/media/NHolmstedtResume2024.pdf": "/portfolio/static/media/NHolmstedtResume2024.771512229303b2ee4ebc.pdf",
-    "index.html": "/portfolio/index.html",
-    "main.91116806.css.map": "/portfolio/static/css/main.91116806.css.map",
-    "main.ca5f5616.js.map": "/portfolio/static/js/main.ca5f5616.js.map",
-    "453.6724f973.chunk.js.map": "/portfolio/static/js/453.6724f973.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.91116806.css",
+    "main.js": "/Portfolio/static/js/main.137502fc.js",
+    "static/js/453.6724f973.chunk.js": "/Portfolio/static/js/453.6724f973.chunk.js",
+    "static/media/NHolmstedtResume2024.pdf": "/Portfolio/static/media/NHolmstedtResume2024.771512229303b2ee4ebc.pdf",
+    "index.html": "/Portfolio/index.html",
+    "main.91116806.css.map": "/Portfolio/static/css/main.91116806.css.map",
+    "main.137502fc.js.map": "/Portfolio/static/js/main.137502fc.js.map",
+    "453.6724f973.chunk.js.map": "/Portfolio/static/js/453.6724f973.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.91116806.css",
-    "static/js/main.ca5f5616.js"
+    "static/js/main.137502fc.js"
   ]
 }
