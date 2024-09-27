@@ -1,0 +1,33 @@
+.footer {
+    background-color: #000000; /* Matches the dark theme */
+    padding: 0.5rem 0; /* Reduced padding for a thinner footer */
+    border-top: 1px solid rgba(255, 255, 255, 0.2); /* Lighter border for contrast */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-content {
+    text-align: center;
+    color: #ffffff; /* White text for readability */
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 0.8rem; /* Reduced font size for a more compact appearance */
+}
+
+.social-links {
+    margin-top: 0.25rem; /* Reduced margin for social links */
+}
+
+.social-links a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: #03C682; /* Keep link color as is, or adjust to match your theme */
+}
+
+.social-links a:hover {
+    text-decoration: underline; /* Keeps hover effect for clarity */
+    color: rgba(255, 255, 255, 0.7); /* Optional: change hover color for better contrast */
+}
